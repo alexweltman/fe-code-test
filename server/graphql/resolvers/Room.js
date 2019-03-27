@@ -1,7 +1,7 @@
-const findAll = require('../helpers/findAll');
+const findAll = require("../helpers/findAll");
 
 module.exports = {
-  boards : (room, args, context) => findAll('boards', { roomId : room.id }),
+  boards: (room, args, context) => findAll("boards", { roomId: room.id }),
 
-  isComplete : (room, args, context) => false,
+  isComplete: (room, args, context) => false
 };
