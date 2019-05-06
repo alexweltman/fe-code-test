@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "knex": "knex --knexfile ./server/db/knexfile.js",
-    "server": "nodemon ./server/index.js",
+    "server": "nodemon -L ./server/index.js",
     "start": "NODE_ENV=development npm run knex migrate:latest && npm run server",
     "test": "jest --no-cache"
   },

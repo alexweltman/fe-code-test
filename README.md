@@ -1,4 +1,3 @@
 # fe-code-test
-- `npm install`
-- `npm start`
+- `docker-compose up`
 - Navigate to `localhost:9000`
