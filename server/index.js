@@ -19,5 +19,5 @@ koaWebpack({
 });
 
 app.listen(9001, '0.0.0.0', () => {
-  console.log('Listening on http://localhost:9000');
+  console.log('Listening on http://localhost:9001');
 });
